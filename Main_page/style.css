@@ -1,0 +1,541 @@
+
+/*  ДЕРЕВО  */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    background-image: url("images/bg.jpg");
+    /*, url("images/bg-02.jpg") cover ,  url("images/bg-03.png") cover*/ 
+    /*background-repeat: no-repeat, no-repeat, no-repeat;*/   
+}
+
+a{
+    color: #3451a0;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+a:hover{
+    color: #F47B20;
+}
+
+
+/*  ХЕДЕР  */
+
+.container{
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid #DFE7ED 1px;
+    background: url(images\bg.jpg);
+}
+
+
+.header_lable{
+    display: flex;
+}
+
+.label{
+    max-width: 60px;
+    border-radius: 10px;
+}
+
+.__texhexpert{
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.column{
+    line-height: 2.0;
+}
+
+.email{
+    color: #6C81A9;
+}
+
+.header_btn{
+    color: #6C81A9;
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #6C81A9;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 0.3s;
+    height: fit-content;
+}
+
+.header_btn:hover{
+    color: #F47B20;
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 0.5;
+}
+
+
+
+
+/*  ТЕХЭКСПЕРТ И КОДЕКС С КРУЖКАМИ  */
+
+
+.circle {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+}
+
+.__orange{
+    background: #F47B20;
+    margin-right: 15px;
+}
+
+.__blue{
+    background: #335DB4;
+    margin-left: 15px;
+}
+
+.headline{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.headline_txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #4A5469;
+    padding-bottom: 150px;
+    line-height: 2.0;
+}
+
+.headline_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.__headline_bootm{
+    margin-top: -75px;
+}
+
+
+/*  ФОНЫ  */
+/*
+.background{
+    background-image: url("images/bg.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.background2{
+    background-image: url("images/bg-02.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.background3{
+    background-image: url("images/bg-03.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+*/
+
+
+
+
+
+/*  ФУТЕР  */
+
+.follow{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #DFE7ED;
+    border-top: 1px solid #DFE7ED;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact_foto{
+    display: flex;
+    justify-content: center;
+}
+
+.icn{
+    color: #6C81A9;
+}
+
+.underfoot{
+    color: #BDBFCB;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* ПОЛОЖЕНИЕ БЛОКОВ СТУДЕНТУ ПРЕПОДАВАТЕЛЮ   */
+
+.block{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.block_left{
+    max-width: 50%;
+    width: 635px;
+    height: 565px;
+}
+
+.block_right{
+    max-width: 50%;
+    width: 1000px;
+    max-width: 635px;
+    height: 1000px; 
+    max-height: 565px;
+    
+}
+
+.right_top{
+    height: 500px;
+    max-height: 435px;
+    
+}
+
+.right_bottom{
+    height: 300px;
+    max-height: 130px;
+    border-radius: 15px;
+    display: flex;
+    
+}
+
+.right_bottom_part{
+    min-width: 50%;
+    height: 130px;
+}
+
+
+/*  ВНУТРЯНКА БЛОКОВ  */
+
+.sqear{
+    border: 1px solid #6C81A9;
+    border-radius: 15px;
+    padding: 20px 5px 20px 5px;
+    display: flex;
+    transition: all 0.3s;
+    background: white;
+}
+
+.sqear:hover{
+    box-shadow: 0 4px 4px rgba(10, 10, 10, 0.2);
+}
+
+.block_foto{
+    max-height: 100%;
+    height: 523px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.text{
+    border: none;
+    display: inline;
+    margin: 0 auto;
+}
+
+.bottom_text{
+    margin: auto;
+}
+
+li{
+    padding-bottom: 15px;
+    color: #6C81A9;
+}
+
+.__left{
+    margin-bottom: -21px;
+    margin-left: -5px;
+    padding-right: 20px;
+    height: 415px;
+}
+
+.minifoto{
+    height: 60%;
+    margin-top: 16px;
+    margin-left: 18px;
+}
+
+.bottom_circle{
+    border-radius: 50%;
+    background-color: #DFE7ED;
+    height: 88px;
+    width: 88px;
+    margin-left: 30px;
+}
+
+.__mini{
+    max-width: 60%;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+
+
+/*  СЕРЧЕР  */
+
+.search{
+    max-width: 100%;
+    height: 250px;
+    margin-bottom: 70px;
+    background-color: #335DB4;/* поменять на нужный фон*/
+    border-radius: 15px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search_txt{
+    color: white;
+    padding: 0px 30px 0px 0px;
+}
+
+.search_title{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.search_txt{
+    font-size: 14px;
+}
+
+.search_inner{
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search_btn{
+    color: #335DB4;
+    background-color: white;
+    padding: 8px 15px 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 33px;
+    width: 90px;
+    margin: auto 0;
+}
+
+.search_btn_txt{
+    margin: 8px;
+    text-align: center;
+}
+
+.search_fild{
+    border-radius: 5px;
+    background-color: #6C81A9;
+    height: 50px;
+    width: 600px;
+    margin: auto 30px;
+    border: 1px solid #6C81A9;
+    color: #ffffff;
+}
+
+.search_fild:hover{
+    border: 1px solid whitesmoke;
+}
+
+.search_fild:focus{
+    
+    color: #335DB4;
+    background-color: #ffffff;
+}
+
+/* Изменение цвета плейсхолдера */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #335DB4;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #335DB4;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #335DB4;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #335DB4;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #335DB4;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #335DB4;
+}
+
+
+
+/* НАДПИСЬ МЕЖДУ ПЛИТКАМИ */
+
+.between_block_txt {
+    text-align: center;
+    color: #4A5469;
+}
+
+.between_block{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.between_block_title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.quarter{
+    max-width: 25%;
+    width: 635px;
+    height: 310px;
+    margin-left: -1px; /*ЛЕГАЛЬНО??*/
+    padding: 50px;
+    display: block;
+}
+
+#black{
+    color: #000;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+#black:hover{
+    color: #F47B20;
+}
+
+.quarter_foto{
+    max-width: 100%;
+    padding: 30px 0px 0px 0px;
+}
+
+.gre{
+    color: #7c8496;
+    padding-top: 20px;
+}
+
+/* МОДАЛКА */
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal_content {
+    background-color: #ffffff;
+    margin: 5% auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 4px 16px #ccc;
+    border-radius: 20px;
+}
+
+.modal_close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.modal_close:hover,
+.modal_close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal_title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.modal_txt{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal_bar{
+    display: inline-block;
+}
+
+.bar_btn{
+    text-align: center;
+    color: #3451a0;
+    padding: 10px 50px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.__bar_btn_blue{
+    color: white;
+    background-color: #335DB4;
+    border-radius: 5px;
+}
+
+.info_bootm{
+    text-align: center;
+    font-size: 12px;
+    color: #BDBFCB;
+}
