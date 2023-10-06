@@ -172,7 +172,7 @@ a:hover{
 
 
 
-/*  ФУТЕР  */
+/*  Подвал  */
 
 .follow{
     display: flex;
@@ -258,7 +258,7 @@ a:hover{
 }
 
 .sqear:hover{
-    box-shadow: 0 4px 4px rgba(10, 10, 10, 0.2);
+    box-shadow: 4px 4px 4px rgba(10, 10, 10, 0.2);
 }
 
 .block_foto{
@@ -377,38 +377,34 @@ li{
     color: #ffffff;
 }
 
-.search_fild:hover{
+.search_fild:hover,
+.search_fild:focus{
     border: 1px solid whitesmoke;
 }
 
-.search_fild:focus{
-    
-    color: #335DB4;
-    background-color: #ffffff;
-}
 
 /* Изменение цвета плейсхолдера */
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #335DB4;
+    color:    #ffffff;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #335DB4;
+   color:    #ffffff;
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #335DB4;
+   color:    #ffffff;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #335DB4;
+   color:    #ffffff;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color:    #335DB4;
+   color:    #ffffff;
 }
 
 ::placeholder { /* Most modern browsers support this now. */
-   color:    #335DB4;
+   color:    #ffffff;
 }
 
 
