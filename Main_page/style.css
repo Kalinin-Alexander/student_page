@@ -556,7 +556,9 @@ li{
 }
 
 .modal_bar{
-    display: inline-block;
+    display: grid;
+    max-width: 400px;
+    margin: auto;
 }
 
 .bar_btn{
@@ -571,6 +573,11 @@ li{
     color: white;
     background-color: #335DB4;
     border-radius: 5px;
+}
+
+.__bar_btn_white{
+    border: none;
+    background-color: white;
 }
 
 .info_bootm{
