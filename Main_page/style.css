@@ -15,6 +15,11 @@ body{
     background-repeat: no-repeat;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 a{
     color: #3451a0;
     cursor: pointer;
@@ -48,6 +53,7 @@ a[href^="tel:"]{
     padding-bottom: 30px;
     border-bottom: solid #DFE7ED 1px;
 }
+
 
 .header_lable{
     display: flex;
@@ -336,10 +342,12 @@ li{
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 10px;
+    color: #ffffff;
 }
 
 .search_txt{
     font-size: 14px;
+    color: #BDBFCB;
 }
 
 .search_inner{
@@ -415,6 +423,7 @@ li{
 }
 
 
+
 /* НАДПИСЬ МЕЖДУ ПЛИТКАМИ */
 
 .between_block_txt {
@@ -444,6 +453,14 @@ li{
     padding: 50px;
     display: block;
 }
+
+/*
+#black{
+    color: #000;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+*/
 
 #black:hover{
     color: #F47B20;
