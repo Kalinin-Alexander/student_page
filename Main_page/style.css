@@ -90,21 +90,6 @@ a[href^="tel:"]{
     color: #6C81A9;
 }
 
-/*
-.header_btn{
-    color: #6C81A9;
-    padding: 8px 15px 8px 15px;
-    border: 1px solid #6C81A9;
-    border-radius: 4px;
-    cursor: pointer;
-    transition-property: color;
-    transition-duration: 0.3s;
-    height: fit-content;
-}
-
-.header_btn:hover{
-    color: #F47B20;
-}*/
 
 #contact_btn{
     color: #6C81A9;
@@ -305,6 +290,7 @@ li{
     margin-left: -5px;
     padding-right: 20px;
     height: 415px;
+    max-width: 100%;
 }
 
 .minifoto{
