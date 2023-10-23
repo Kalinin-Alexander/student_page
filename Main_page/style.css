@@ -11,6 +11,7 @@ body{
     margin: 0px;
     background-image: url("images/bg.jpg");
     background-color: #f3f6f9;
+    /* url("images/bg-02.jpg") cover ,  url("images/bg-03.png") cover*/ 
     background-repeat: no-repeat;
 }
 
@@ -47,7 +48,6 @@ a[href^="tel:"]{
     padding-bottom: 30px;
     border-bottom: solid #DFE7ED 1px;
 }
-
 
 .header_lable{
     display: flex;
@@ -88,7 +88,6 @@ a[href^="tel:"]{
 .email{
     color: #6C81A9;
 }
-
 
 #contact_btn{
     color: #6C81A9;
@@ -285,11 +284,11 @@ li{
 }
 
 .__left{
+    max-width: 100%;
     margin-bottom: -21px;
     margin-left: -5px;
     padding-right: 20px;
     height: 415px;
-    max-width: 100%;
 }
 
 .minifoto{
@@ -348,24 +347,6 @@ li{
     display: flex;
     justify-content: center;
 }
-
-/*
-.search_btn{
-    color: #335DB4;
-    background-color: white;
-    padding: 8px 15px 8px 15px;
-    border-radius: 4px;
-    cursor: pointer;
-    height: 33px;
-    width: 90px;
-    margin: auto 0;
-}
-
-.search_btn_txt{
-    margin: 8px;
-    text-align: center;
-}
-*/
 
 #search_btn{
     color: #335DB4;
@@ -434,7 +415,6 @@ li{
 }
 
 
-
 /* НАДПИСЬ МЕЖДУ ПЛИТКАМИ */
 
 .between_block_txt {
@@ -463,13 +443,6 @@ li{
     margin-left: -1px; /*ЛЕГАЛЬНО??*/
     padding: 50px;
     display: block;
-}
-
-
-#black{
-    color: #000;
-    transition-property: color;
-    transition-duration: 0.3s;
 }
 
 #black:hover{
