@@ -1,3 +1,4 @@
+
 let modal = document.getElementById("modal");
 
 let btn = document.getElementById("contact_btn");
