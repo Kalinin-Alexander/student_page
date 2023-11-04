@@ -59,29 +59,16 @@ a[href^="tel:"]{
 }
 
 .label{
-    max-width: 45px;
-    border-radius: 10px;
-    
+    transition: all;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    padding-top: 10px;
 }
 
-.label_k{
-    max-width: 45px;
-    border-radius: 10px;
-    cursor: pointer;
-    background-image: url("images/logo-k.svg") 100% 100% ;
-}
-.label_t{
-    max-width: 45px;
-    border-radius: 10px;
-    cursor: pointer;
-    background-image: url("images/logo-t.svg") 100% 100%;
-}
-
-/*
 .label:hover{
     opacity: 0.8;
 }
-*/
 
 .__texhexpert{
     margin-left: 10px;
@@ -190,7 +177,7 @@ a[href^="tel:"]{
 }
 
 .icn:hover{
-    opacity: 0.8;
+    fill: #F47B20;
     /*Не выходит менять цвет ни через fill ни через stroke ни через color*/
     
 }
@@ -261,7 +248,7 @@ a[href^="tel:"]{
 }
 
 .square:hover{
-    box-shadow: 4px 4px 4px rgba(10, 10, 10, 0.2);
+    box-shadow: 0px 5px 15px rgba(47, 47, 47, 15%);
 }
 
 .block_foto{
@@ -375,10 +362,12 @@ li{
     border-radius: 5px;
     background-color: #5C7DC3;
     height: 50px;
-    width: 600px;
+    width: 580px;
     margin: auto 30px;
     border: 1px solid #5C7DC3;
     color: #ffffff;
+    padding-left: 20px;
+    outline: none;
 }
 
 .search_fild:hover,
@@ -391,35 +380,35 @@ li{
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #ffffff;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     font-size: 16px;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:    #ffffff;
    opacity:  1;
-   padding-left: 20px;
+   /*padding-left: 20px;*/
    font-size: 16px;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color:    #ffffff;
    opacity:  1;
-   padding-left: 20px;
+   /*padding-left: 20px;*/
    font-size: 16px;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    #ffffff;
-   padding-left: 20px;
+   /*padding-left: 20px;*/
    font-size: 16px;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
    color:    #ffffff;
-   padding-left: 20px;
+   /*padding-left: 20px;*/
    font-size: 16px;
 }
 
 ::placeholder { /* Most modern browsers support this now. */
    color:    #ffffff;
-   padding-left: 20px;
+   /*padding-left: 20px;*/
    font-size: 14px;
 }
 
@@ -480,7 +469,13 @@ li{
 
 .quarter_foto{
     max-width: 100%;
-    padding: 30px 0px 0px 0px;
+    /*padding: 30px 0px 0px 0px;*/
+    margin-top: -60px;
+}
+
+.__color_change:hover{
+    /*fill: #F47B20;*/
+    stroke:#F47B20;
 }
 
 .gre{
@@ -615,13 +610,15 @@ li{
     left: 1000px;
 }
 
+
+
 .drop_inner{
     display: inline-block;
     padding: 35px;
     border-radius: 15px;
     background-color: white;
     line-height: 2.5;
-    box-shadow: 4px 4px 4px rgba(10, 10, 10, 0.2);
+    box-shadow: 0px 5px 15px rgba(47,47,47,15%);
 }
 
 .drop_inner-block{
