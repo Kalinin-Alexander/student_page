@@ -1,3 +1,11 @@
+/*Шрифты*/
+
+@font-face {
+	font-family: 'Montserrat-Regular'; 
+	src: local('Montserrat-Regular'),
+		url(fonts/Montserrat-Regular.ttf); 
+}
+
 /*  ДЕРЕВО  */
 
 html{
@@ -90,16 +98,18 @@ a[href^="tel:"]{
     transition-property: color;
     transition-duration: 0.3s;
     height: fit-content;
+    margin-top: 15px;
 }
 
 #contact_btn:hover{
     color: #F47B20;
 }
 
-.header_lable_tx{
+.header_lable_txt{
     font-size: 20px;
     font-weight: 800;
     line-height: 0.5;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 
@@ -131,6 +141,7 @@ a[href^="tel:"]{
     align-items: center;
     font-size: 50px;
     line-height: 1.5;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 .headline_txt{
@@ -213,13 +224,13 @@ a[href^="tel:"]{
     max-width: 635px;
     height: 1000px; 
     max-height: 565px;
-    
+    margin-left: -1px;
 }
 
 .right_top{
     height: 500px;
     max-height: 435px;
-    
+    margin-left: -1px;
 }
 
 .right_bottom{
@@ -227,12 +238,13 @@ a[href^="tel:"]{
     max-height: 130px;
     border-radius: 15px;
     display: flex;
-    
+    margin-top: -1px;
 }
 
 .right_bottom_part{
     min-width: 50%;
     height: 130px;
+    margin-left: -1px;
 }
 
 
@@ -260,6 +272,7 @@ a[href^="tel:"]{
     font-size: 20px;
     font-weight: 600;
     line-height: 1.5;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 .text{
@@ -270,6 +283,7 @@ a[href^="tel:"]{
 
 .bottom_text{
     margin: auto;
+    text-decoration: none;
 }
 
 li{
@@ -433,6 +447,7 @@ li{
     font-weight: 600;
     text-align: center;
     margin-bottom: 15px;
+    font-family: 'Montserrat-Regular', sans-serif;
 }
 
 .quarter{
@@ -586,28 +601,28 @@ li{
     display: none; 
     position: absolute;
     top: 50px;
-    left: 650px;
+    left: 700px;
 }
 
 #learn{
     display: none; 
     position: absolute;
     top: 85px;
-    left: 650px;
+    left: 700px;
 }
 
 #work{
     display: none; 
     position: absolute;
     top: 50px;
-    left: 1000px;
+    left: 1030px;
 }
 
 #news{
     display: none; 
     position: absolute;
     top: 85px;
-    left: 1000px;
+    left: 1030px;
 }
 
 
