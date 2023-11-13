@@ -88,6 +88,7 @@ call4.onclick = function() {
   drop2.style.display = "none";
   drop1.style.display = "none";
 }
+
 /*
 window.onclick = function(event) {
   if (event.target == drop1) {
