@@ -684,22 +684,50 @@ li{
 
     .header_label {
         display: inline;
+        /*flex-wrap: wrap;
+        width: 100%;*/
+    }
+
+    .header {
+        margin: 0px 5px 0px 5px;
+    }
+
+    .label {
+        width: 30px;
+    }
+
+    .header_label_txt {
+        font-size: 16px;
+    }
+
+    .__headline_bottom {
+        margin-top: -15%;
+    }
+
+    .headline {
+        font-size: 45px;
     }
 
     .block{
         display: inline;
+        /*flex-wrap: wrap;
+        width: 100%;*/
         margin: 0 auto;
     }
+
     .container{
-        max-width: 90%;
+        max-width: 100%;
     }
+
     .block_photo{
         display: none;
     }
+
     .block_left{
         width: 90%;
         margin: auto;
     }
+
     .block_right{
         min-width: 91%;
         max-height: none;
@@ -707,34 +735,50 @@ li{
         margin-bottom: 50px;
     }
 
-
     .search{
         height: auto;
         padding: 40px 0px 40px 0px;
+        max-width: 90%;
+        margin: 0 auto;
     }
+
     .search_inner {
         display: inline;
+        /*flex-wrap: wrap;
+        width: 100%;*/
         text-align: center;
     }
+
     #search_btn{
         margin: 0 auto;
     }
+
+    .search_txt {
+        padding: 0px ; 
+    }
+
     .search_fild{
         margin: 10px 0px 10px 0px;
+        max-width: 70%;
+    }
+
+    .between_block {
+        margin-bottom: 50px;
+        margin-top: 50px ;
     }
 
     .quarter{
         max-width: 90%;
-        width: unset;
+        width: 80%;
+        margin: 0 auto 30px;
         height: unset;
     }
+
     .quarter_photo{
         max-width: 30%;
         max-height: 30%;
         margin: 0 35%;
     }
-
-
 
     #student{
         top: 50px;
@@ -754,5 +798,108 @@ li{
     #news{
         top: 85px;
         left: 50%;
+    }
+
+    .icn {
+        max-width: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        margin: 0px 5px 0px 5px;
+        font-size: 12px;
+    }
+
+    .header_label_txt {
+        font-size: 12px;
+    }
+
+    .label {
+        width: 25px;
+    }
+
+    .headline{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .circle {
+        width: 25px;
+        height: 25px;
+    }
+
+    .headline_txt {
+        padding: 0px 5px 20px 5px;
+    }
+
+    .bottom_circle {
+        margin-left: 0px;
+        width: 120px;
+    }
+
+    .search_fild {
+        max-width: 50%;
+        height: 40px;
+    }
+
+    #search_btn {
+        height: 25px;
+    }
+    
+    .search_txt {
+        padding: 0px;
+    }
+
+    .search_btn_txt {
+        margin: 3px;
+    }
+
+    .between_block_title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .between_block_txt {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .quarter {
+        max-width: 70%;
+        height: unset;
+    }
+
+    .follow {
+        font-size: 12px;
+    }
+
+    .icn {
+        max-width: 30px;
+    }
+
+    .underfoot {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    #student {
+        top: 50px;
+        left: 20%;
+    }
+
+    #news {
+        top: 68px;
+        left: 40%;
+    }
+
+    #work {
+        top: 45px;
+        left: 42%;
+    }
+
+    .modal_content {
+        margin: 0 7%;
+        width: 60%;
     }
 }
